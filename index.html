@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Card</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="bg-zinc-900 w-screen h-screen flex justify-center items-center">
+      <div
+        class="flex flex-col justify-center gap-y-6 pt-4 w-60 rounded-xl w-100 lg:w-1/5 h-2/3 bg-purple-700"
+      >
+        <div class="profile-pic flex justify-center h-24 relative">
+          <img
+            src="./cuteDuck.jpg"
+            alt="profile pic"
+            class="rounded-full max-w-100 border-[5px] absolute -bottom-full"
+          />
+        </div>
+        <div
+          class="bg-white rounded-md pt-24 flex-1 w-100 flex flex-col items-center justify-between pb-4"
+        >
+          <h3 class="text-xl font-bold text-center">Code with Duke Lee</h3>
+          <p class="text-md font-semibold text-center text-slate-400">
+            Vietnam
+          </p>
+          <div class="">
+            <div class="p-2">
+              <i class="fa-brands fa-youtube"></i>
+              <a href="https://www.youtube.com/@CodewithDukeLee"
+                >@codewithdukelee</a
+              >
+            </div>
+            <div class="p-2">
+              <i class="fa-brands fa-facebook"></i>
+              <a href="https://www.facebook.com/profile.php?id=100093023825333"
+                >Code with Duke Lee</a
+              >
+            </div>
+            <div class="p-2">
+              <i class="fa-sharp fa-solid fa-envelope"></i>
+              <a href="mailto:codewithdukelee@gmail.com"
+                >codewithdukelee<br />@gmail.com</a
+              >
+            </div>
+          </div>
+          <div class="flex justify-between gap-2">
+            <button
+              class="px-4 py-1 text-sm bg-purple-500 rounded-full text-white shadow-md"
+            >
+              Follow
+            </button>
+            <button
+              class="px-4 py-1 text-sm bg-white rounded-full shadow-md border"
+            >
+              Message
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
